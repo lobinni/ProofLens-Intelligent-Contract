@@ -1,0 +1,22 @@
+# secrets — NEVER commit
+.env
+.env.local
+.env.*.local
+*.pem
+
+# dependencies & build
+node_modules/
+dist/
+.vite/
+
+# python (contract toolchain)
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# misc
+.DS_Store
+*.log
+vercel/
+.vercel/
