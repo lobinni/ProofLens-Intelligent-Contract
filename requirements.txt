@@ -1,3 +1,8 @@
+# ProofLens — GenLayer Intelligent Contract toolchain
+# Install into a dedicated environment:
+#   python3 -m venv .venv
+#   .venv/bin/pip install -r requirements.txt
+
 pytest>=8.0.0
-gltest>=0.36.0
-genvm-lint>=0.1.0
+gltest>=0.36.0          # GenLayer contract test runner (gltest)
+genvm-lint>=0.1.0       # GenVM lint + typecheck for contracts/
