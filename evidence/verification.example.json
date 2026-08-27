@@ -1,0 +1,26 @@
+{
+  "policyVersion": "prooflens-risk-v5",
+  "contractAddress": "0x01498130561f8629EdfDf4Edc881BEa3999E1C35",
+  "deploymentTransactionHash": "0xDEPLOYMENT_TRANSACTION",
+  "analyzeWalletTransactionHash": "0xANALYZE_TRANSACTION",
+  "scanId": "pl_example",
+  "wallet": "0x0000000000000000000000000000000000000000",
+  "storedReport": {
+    "scan_id": "pl_example",
+    "wallet": "0x0000000000000000000000000000000000000000",
+    "evidence_hash": "64-character-sha256",
+    "policy_version": "prooflens-risk-v5",
+    "verdict": {
+      "classification": "inconclusive",
+      "risk_score": 0,
+      "confidence": 0,
+      "factor_codes": ["PARTIAL_COVERAGE"]
+    }
+  },
+  "reportCountAfter": 1,
+  "explorerLinks": {
+    "contract": "https://explorer-studio.genlayer.com/address/0x01498130561f8629EdfDf4Edc881BEa3999E1C35",
+    "deployment": "https://explorer-studio.genlayer.com/transactions/0xDEPLOYMENT_TRANSACTION",
+    "analysis": "https://explorer-studio.genlayer.com/transactions/0xANALYZE_TRANSACTION"
+  }
+}

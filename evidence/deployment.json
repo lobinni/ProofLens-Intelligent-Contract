@@ -1,0 +1,26 @@
+{
+  "network": "studionet",
+  "contractName": "ProofLensIntelligence",
+  "policyVersion": "prooflens-risk-v5",
+  "state": "active",
+  "address": "0x01498130561f8629EdfDf4Edc881BEa3999E1C35",
+  "transactionHash": "",
+  "deployedAt": "",
+  "explorer": "https://explorer-studio.genlayer.com/address/0x01498130561f8629EdfDf4Edc881BEa3999E1C35",
+  "source": "../contract/prooflens_intelligence.py",
+  "writeMethod": "analyze_wallet",
+  "writeMethodSignature": "analyze_wallet(scan_id: str, wallet: str, evidence_json: str, evidence_hash: str) -> None",
+  "viewMethods": ["get_report", "get_latest_report_id", "get_report_count"],
+  "previousDeployment": {
+    "policyVersion": "prooflens-risk-v3",
+    "address": "0xC4CeEd79FcB9Eda180e961099aa96E0f2eDE6EB5",
+    "explorer": "https://explorer-studio.genlayer.com/address/0xC4CeEd79FcB9Eda180e961099aa96E0f2eDE6EB5",
+    "note": "Previous public deployment. It predates exact classification binding and the reproducible sampling window; do not present it as the v5 submission deployment."
+  },
+  "remainingBeforeSubmission": [
+    "Record the deployment transaction hash",
+    "Record deployedAt",
+    "Execute one analyze_wallet transaction",
+    "Record that transaction and get_report output in verification.json"
+  ]
+}
